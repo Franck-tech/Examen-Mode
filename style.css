@@ -11,6 +11,9 @@ body{
     align-items: center;
     height: 100vh;
 }
+p{
+    margin-left: 100px;
+}
 .Vid{
     width: 100%;
     max-width: 800px;
@@ -32,10 +35,14 @@ body{
     transform: translateY(100%) translateY(-5px);
     transition: all 0.2s;
 }
+img{
+    background-color: white;
+    border-radius: 100%;
+}
 .Vid:hover .controls{
     transform: translateY(0);
 }
-.button{
+/* .button{
     padding: 10px;
 }
 .button button{
@@ -44,26 +51,31 @@ body{
     outline: 0;
     cursor: pointer;
     color: #fff;
-}
+} */
 video{
     width: 62%;
     height: 250px;
-}  
-.button #play-pause::before{
-    content: '\f144';
-    font-family: 'Font Awesome 5 free';
-    width: 30px;
+}
+/* #video0{
+    display: none;
+} */
+/* .button #play-pause::before{
+    /* content: '\f144'; */
+    /* font-family: 'Font Awesome 5 free'; */
+    /* width: 30px;
     height: 30px;
     display: inline-block;
     font-size: 28px;
     color: #fff;
 } 
-.button #play-pause .play::before{
-    content: '\f144';
+.button #play-pause.play::before{
+    /* content: '\f144'; */
+    /* background: url("play-button.png");
 }
-.button #play-pause .pause::before{
-    content: '\f28b';
-}
+.button #play-pause.pause::before{
+    /* content: '\f28b'; */
+    /* background: url("pause.png");
+} */ */ */ */
 .orange-bar{
     height: 10px;
     width: 10%;
@@ -91,6 +103,7 @@ input[type="checkbox"]{
     position: relative;
     width: 280px;
     height: 100px;
+    margin-top: 100px;
     -webkit-appearance: none;
     background: #c6c6c6;
     outline: none;
