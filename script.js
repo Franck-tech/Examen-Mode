@@ -36,7 +36,7 @@ function toggle(){
      }else{
         clicked = false;
         document.getElementById("check").innerHTML ="On";
-        document.getElementById("output").innerHTML= "<strong style='font-size:50px;'><em>Examen Mode</em></strong>" ;
+        document.getElementById("output").innerHTML= "<strong style='font-size:50px;'><em>ExamMode</em></strong>" ;
         document.getElementById("video").nextElementSibling.style.display="none";
         document.getElementById("video").play();
      }
